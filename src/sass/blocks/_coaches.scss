@@ -1,0 +1,110 @@
+.coaches {
+    min-height: 1157px;
+    padding: 136px 0 160px 0;
+    background: #100E14;
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 61px;
+        line-height: 83px;
+        text-align: center;
+        letter-spacing: 2.56px;
+        color: #FFFFFF;
+    }
+    &__divider {
+        width: 120px;
+        height: 5px;
+        background: #FF4343;
+        margin: 0 auto;
+        margin-top: 38px;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.42px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 617px;
+        margin: 0 auto;
+        margin-top: 34px;
+    }
+    &__wrapper {
+        margin-top: 89px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_image {
+            width: 251px;
+            height: 452px;
+            position: relative;
+            &_mask {
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, .3);
+                position: absolute;
+                top: 0;
+            }
+            &_descr {
+                position: absolute;
+                top: 272px;
+                left: 42px;
+                bottom: 50px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 29px;
+                line-height: 35px;
+                text-align: center;
+                letter-spacing: 0.42px;
+                color: #FFFFFF;
+                width: 250px;
+                &_first {
+                    left: 0;
+                }
+                &_second {
+                    left: 10px;
+                    top: 240px;
+                }
+                &_third {
+                    left: 10px;
+                    top: 272px;
+                }
+                &_four {
+                    left: 10px;
+                    top: 277px;
+                }
+                &_five {
+                    left: 5px;
+                    top: 277px;
+                }
+                &_name {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.42px;
+                    color: #FFFFFF;
+                    margin-top: 12px;
+                }
+                &_skill {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.42px;
+                    color: rgba(255, 255, 255, 0.65);
+                    margin-top: 1px;
+                }
+            }
+        }
+    }
+}

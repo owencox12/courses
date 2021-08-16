@@ -1,0 +1,37 @@
+.header {
+    height: 89px;
+    padding: 32px 0 35px 0;
+    &__inner {
+
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_left {
+            display: flex;
+        }
+        &_menu {
+            &_list {
+                list-style-type: none;
+                display: flex;
+                &_li {
+                    margin: 0 26px;
+                    a {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 22px;
+                        letter-spacing: 0.42px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+.header__burger_list {
+    display: none;
+}

@@ -1,0 +1,21 @@
+.button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 26px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+    border: none;
+    &--promo {
+        width: 281px;
+        height: 66px;
+        background: #FF4343;
+        border-radius: 8px;
+    }
+    &--courses {
+        width: 281px;
+        height: 66px;
+        background: #FF4343;
+    }
+}

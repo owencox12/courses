@@ -1,0 +1,94 @@
+.promo {
+    background: #100E14;
+    min-height: 1716px;
+    padding: 96px 0 188px 0;
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 63px;
+        line-height: 73px;
+        text-align: center;
+        letter-spacing: 2.88px;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.42px;
+        color: rgba(255, 255, 255, 0.7);
+        margin-top: 44px;
+    }
+    &__button {
+        text-align: center;
+        margin-top: 73px;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.42px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 19px;
+    }
+    &__image {
+        margin-top: 61px;
+        position: relative;
+        &_second {
+            position: absolute;
+            right: 15%;
+            top: 0;
+        }
+    }
+    .promo-img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 210px;
+    }
+    &__item {
+        &_title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 58px;
+            line-height: 70px;
+            letter-spacing: 1.92px;
+            color: #FFFFFF;
+            width: 442px;
+        }
+        &_descr {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 38px;
+            letter-spacing: 1.08px;
+            width: 452px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 38px;
+        }
+        &_image {
+            position: relative;
+            z-index: 1000;
+            right: 10%;
+            &_second {
+                position: absolute;
+                top: 0;
+                right: 0%;
+                z-index: 5;
+                opacity: .99;
+            }
+        }
+    }
+}

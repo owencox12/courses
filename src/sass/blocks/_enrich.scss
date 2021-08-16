@@ -1,0 +1,35 @@
+.enrich {
+    min-height: 750px;
+    padding: 180px 0;
+    background: #100E14;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 45%;
+        &_title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 58px;
+            line-height: 70px;
+            letter-spacing: 1.92px;
+            color: #FFFFFF;
+        }
+        &_descr {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px;
+            line-height: 38px;
+            letter-spacing: 1.08px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 38px;
+            span {
+                color: #fff;
+            }
+        }
+    }
+    
+}

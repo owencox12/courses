@@ -1,0 +1,48 @@
+.footer {
+    min-height: 433px;
+    padding: 117px 0 120px 0;
+    background: #000000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        &_title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 0.18px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &_list {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 48px;
+            &_li {
+                margin: 5px 0;
+                a {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 32px;                  
+                    letter-spacing: 0.16px;                 
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &_icons {
+            &_icon {
+                fill: #fff;
+                width: 32px;
+                height: 25px;
+                &:hover {
+                    fill: red;
+                }
+            }
+        }
+    }
+}

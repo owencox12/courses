@@ -1,0 +1,21 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/enrich';
+@import 'blocks/internactive';
+@import 'blocks/share';
+@import 'blocks/coaches';
+@import 'blocks/courses';
+@import 'blocks/create';
+@import 'blocks/featured';
+@import 'blocks/footer';
+@import 'blocks/media';

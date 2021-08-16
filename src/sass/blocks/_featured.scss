@@ -1,0 +1,95 @@
+.featured {
+    min-height: 979px;
+    background: #0A0A0A;
+    padding: 170px 0 180px 0;
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 58px;
+        line-height: 70px;
+        letter-spacing: 1.92px;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        margin-top: 109px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        width: 615px;
+       min-height: 449px;
+        display: flex;
+        &_right {
+            position: relative;
+            &_text {
+                position: absolute;
+                top: 0;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 19px;
+                line-height: 20px;
+                letter-spacing: 0.42px;
+                color: #FFFFFF;
+                padding: 371px 88px 20px 15px;
+                &_second {
+                    padding: 350px 88px 20px 15px;
+                }
+                &_subs {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 20px;
+                    letter-spacing: 0.42px;
+                    color: #FFFFFF;
+                    margin-top: 16px;
+                }
+            }
+        }
+        &_left {
+            background:palegreen;
+            padding: 67px 37px 39px 30px;
+            &_title {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 29px;
+                line-height: 36px;
+                letter-spacing: 0.42px;
+                color: #FFFFFF;
+            }
+            &_descr {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0.42px;
+                color: #FFFFFF;
+                width: 302px;
+                margin-top: 23px;
+            }
+            &_link {
+                text-align: right;
+                margin-top: 76px;
+                img {
+                    margin-left: 24px;
+                }
+                &_second {
+                    margin-top: 159px;
+                }
+                a {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 19px;
+                    line-height: 20px;
+                    letter-spacing: 0.6px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}

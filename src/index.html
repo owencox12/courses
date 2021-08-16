@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="youtube" viewBox="0 0 96.875 96.875" >
+            <path d="M95.201,25.538c-1.186-5.152-5.4-8.953-10.473-9.52c-12.013-1.341-24.172-1.348-36.275-1.341
+            c-12.105-0.007-24.266,0-36.279,1.341c-5.07,0.567-9.281,4.368-10.467,9.52C0.019,32.875,0,40.884,0,48.438
+            C0,55.992,0,64,1.688,71.336c1.184,5.151,5.396,8.952,10.469,9.52c12.012,1.342,24.172,1.349,36.277,1.342
+            c12.107,0.007,24.264,0,36.275-1.342c5.07-0.567,9.285-4.368,10.471-9.52c1.689-7.337,1.695-15.345,1.695-22.898
+            C96.875,40.884,96.889,32.875,95.201,25.538z M35.936,63.474c0-10.716,0-21.32,0-32.037c10.267,5.357,20.466,10.678,30.798,16.068
+            C56.434,52.847,46.23,58.136,35.936,63.474z"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="instagram" viewBox="0 0 512.00096 512.00096">
+            <path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="twitter" viewBox="0 0 310 310">
+            <path id="XMLID_827_" d="M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73
+            c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783
+            c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598
+            C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467
+            c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977
+            c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889
+            c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597
+            c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961
+            c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895
+            c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367
+            c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998
+            C307.394,57.037,305.009,56.486,302.973,57.388z"/>
+        </symbol>
+    </svg>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__wrapper">
+                    <div class="header__item header__item_left">
+                        <div class="header__item_logo">
+                            <img src="image/logo.png" alt="" class="header-logo">
+                        </div>
+                        <div class="header__item_menu">
+                            <ul class="header__item_menu_list">
+                                <li class="header__item_menu_list_li"><a href="#">Pricing</a></li>
+                                <li class="header__item_menu_list_li"><a href="#">Find a course</a></li>
+                                <li class="header__item_menu_list_li"><a href="#">For Creators</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item_menu">
+                            <ul class="header__item_menu_list">
+                                <li class="header__item_menu_list_li"><a href="#">Sign In</a></li>
+                                <li class="header__item_menu_list_li"><a href="#">Create a course</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__burger_list">
+                    <ul class="header__burger_list_ul">
+                        <li class="header__burger_list_ul_li"><a href="#">Pricing</a></li>
+                        <li class="header__burger_list_ul_li"><a href="#">Find a course</a></li>
+                        <li class="header__burger_list_ul_li"><a href="#">For Creators</a></li>
+                        <li class="header__burger_list_ul_li"><a href="#">Sign In</a></li>
+                        <li class="header__burger_list_ul_li"><a href="#">Create a course</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="promo">
+        <div class="container">
+            <h1 class="promo__title">
+                Take out your phone, and teach
+                </h1>
+            <h4 class="promo__subtitle">Classcamp is the easiest way to create an online course.</h4>
+            <div class="promo__button"><button class="button button--promo">Create a course</button></div>
+            <div class="promo__descr">If you're a student, continue here</div>
+            <div class="promo__image"><img src="image/promo.png" alt="" class="promo-img">
+            <span class="promo__image_second"><img src="image/image1.png" class="promo-img" alt=""></span></div>
+            <div class="promo__wrapper">
+                <div class="promo__item">
+                    <div class="promo__item_title">Shoot lessons with your phone</div>
+                    <div class="promo__item_descr">Pick a course template, and let the app guide you through the shooting. It's as easy as that.</div>
+                </div>
+                <div class="promo__item">
+                    <div class="promo__item_image">
+                        <img src="image/image3.png" alt="" class="promo-img">
+                        <div class="promo__item_image_second">
+                            <img src="image/image1.png" alt="" class="promo-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="enrich">
+        <div class="container">
+            <div class="enrich__wrapper">
+                <div class="enrich__item">
+                    <img src="image/Frame.png" alt="" class="enrich-img">
+                </div>
+                <div class="enrich__item">
+                    <div class="enrich__item_title">Enrich them with text and images</div>
+                    <div class="enrich__item_descr">Sometimes speaking to the camera isn’t enough. So add text and graphics to get your point across.<span> Like slides, but easy peasy.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="internactive">
+        <div class="container">
+            <div class="internactive__wrapper">
+                <div class="internactive__item">
+                    <div class="internactive__item_title">
+                        Add interactive elements
+                    </div>
+                    <div class="internactive__item_descr">People learn best by doing. Include hands-on assignments, quizzes and give students feedback. <span>Give extra value, with little effort.</span></div>
+                </div>
+                <div class="internactive__item">
+                    <img src="image/inertactive.png" class="internactive-img" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="share">
+        <div class="container">
+            <div class="share__wrapper">
+                <div class="share__item">
+                    <img src="image/share.png" alt="" class="share-img">
+                </div>
+                <div class="share__item">
+                    <div class="share__item_title">
+                        Share your link and start selling
+                    </div>
+                    <div class="share__item_descr">Your course comes with a stunning enrolment page. Up and running in minutes, even before you shoot any content.<span> Start selling now.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="coaches">
+        <div class="container">
+            <div class="coaches__title">Trusted by the <br> best at their craft</div>
+            <div class="coaches__divider"></div>
+            <div class="coaches__descr">Coaches, creators and changemakers use Classcamp to offer engaging learning experiences</div>
+            <div class="coaches__wrapper">
+                <div class="coaches__item">
+                    <div class="coaches__item_image">
+                        <div class="coaches__item_image_mask"></div>
+                        <img src="image/coaches1.png" alt="" class="coaches-img">
+                        <div class="coaches__item_image_descr coaches__item_image_descr_first">Videography <br>for movement <div class="coaches__item_image_descr_name">Alessandro Sigismondi</div>
+                    <div class="coaches__item_image_descr_skill">Photographer</div></div>
+                    </div>
+                </div>
+                <div class="coaches__item">
+                    <div class="coaches__item_image">
+                        <div class="coaches__item_image_mask"></div>
+                        <img src="image/coaches2.png" alt="" class="coaches-img">
+                        <div class="coaches__item_image_descr coaches__item_image_descr_second">Create the life<br> and business<br> you want <div class="coaches__item_image_descr_name">Keltie Maguire</div>
+                    <div class="coaches__item_image_descr_skill">Business coach</div></div>
+                    </div>
+                </div>
+                <div class="coaches__item">
+                    <div class="coaches__item_image">
+                        <div class="coaches__item_image_mask"></div>
+                        <img src="image/coaches3.png" alt="" class="coaches-img">
+                        <div class="coaches__item_image_descr coaches__item_image_descr_third">Get started<br> with Graffiti <div class="coaches__item_image_descr_name">By SMOE NOVA</div>
+                    <div class="coaches__item_image_descr_skill">Youtuber</div></div>
+                    </div>
+                </div>
+                <div class="coaches__item">
+                    <div class="coaches__item_image">
+                        <div class="coaches__item_image_mask"></div>
+                        <img src="image/coaches4.png" alt="" class="coaches-img">
+                        <div class="coaches__item_image_descr coaches__item_image_descr_four">Yoga and <br> Mindfulness <div class="coaches__item_image_descr_name">By Annika Isterling</div>
+                    <div class="coaches__item_image_descr_skill">Yoga teacher</div></div>
+                    </div>
+                </div>
+                <div class="coaches__item">
+                    <div class="coaches__item_image">
+                        <div class="coaches__item_image_mask"></div>
+                        <img src="image/coaches5.png" alt="" class="coaches-img">
+                        <div class="coaches__item_image_descr coaches__item_image_descr_five">Holistic business and wellbeing <div class="coaches__item_image_descr_name">By Leo de Melo</div>
+                    <div class="coaches__item_image_descr_skill">Business coach</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="courses">
+        <div class="container">
+            <h4 class="courses__title">Async group courses</h4>
+            <h1 class="courses__subtitle">Offer a group learning experience, but stay flexible.</h1>
+            <div class="courses__descr">Set starting dates, accept batches of students and watch them go through the course. Provide feedback on your own time, via text or video.</div>
+            <div class="courses__image">
+                <img src="image/courses.png" alt="" class="courses-img">
+            </div>
+            <div class="courses__block">
+                <div class="courses__block_title">What will you teach?</div>
+                <div class="courses__block_descr">Pick a course template and start today - people will love it!</div>
+                <div class="courses__block_button">
+                    <button class="button button--courses">Create a courses <img src="image/vector.png" alt="" class="courses-img"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="create">
+        <div class="create__mask"></div>
+        <div class="container">
+            <div class="create__title">“I can now create a lesson in minutes, instead of days or weeks”</div>
+            <div class="create__subtitle">L. Springer, Course creator</div>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <div class="featured__title">Featured courses</div>
+            <div class="featured__wrapper">
+                <div class="featured__block">
+                    <div class="featured__block_right">
+                        <img src="image/block1.png" alt="" class="featured-img">
+                        <div class="featured__block_right_text">SMOE NOVA
+                            <div class="featured__block_right_text_subs"><img src="image/youtube.png" alt="" class="featured-img">
+                                188K subscribers</div>
+                        </div>
+                    </div>
+                    <div class="featured__block_left">
+                        <div class="featured__block_left_title">Going Wild with Graffiti Letters</div>
+                        <div class="featured__block_left_descr">Style writing is so much fun. I'll teach you the tools from my 20 years of practicing with letters.Learn how to create new solutions, new letters, get more creative, and how to clean up the style to get rid of all the useless nonsense.</div>
+                        <div class="featured__block_left_link">
+                            <a href="#" class="featured__block_link">Pre-signup <img src="image/vector2.png" alt="" class="featured-img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured__block">
+                    <div class="featured__block_right">
+                        <img src="image/block2.png" alt="" class="featured-img">
+                        <div class="featured__block_right_text featured__block_right_text_second">The Airbrush Guy
+                            <div class="featured__block_right_text_subs"><img src="image/youtube.png" alt="" class="featured-img">
+                                237K subscribers</div>
+                        </div>
+                    </div>
+                    <div class="featured__block_left">
+                        <div class="featured__block_left_title">Learn How to Airbrush</div>
+                        <div class="featured__block_left_descr">Gain confident control of the airbrush to create simple artworks and lettering. You'll also get an understanding of how to set up, clean, and maintain your airbrushes.</div>
+                        <div class="featured__block_left_link featured__block_left_link_second">
+                            <a href="#" class="featured__block_link">Pre-signup <img src="image/vector2.png" alt="" class="featured-img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__logo">
+                        <img src="image/logo2.png" alt="" class="footer-img">
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__item_title">Product</div>
+                        <ul class="footer__item_list">
+                            <li class="footer__item_list_li"><a href="#">Create a course</a></li>
+                            <li class="footer__item_list_li"><a href="#">Find a course</a></li>
+                            <li class="footer__item_list_li"><a href="#">Features</a></li>
+                            <li class="footer__item_list_li"><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__item_title">Company</div>
+                        <ul class="footer__item_list">
+                            <li class="footer__item_list_li"><a href="#">For Creators</a></li>
+                            <li class="footer__item_list_li"><a href="#">About us</a></li>
+                            <li class="footer__item_list_li"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__item_title">ResOURCES</div>
+                        <ul class="footer__item_list">
+                            <li class="footer__item_list_li"><a href="#">FAQ</a></li>
+                            <li class="footer__item_list_li"><a href="#">Terms of service</a></li>
+                            <li class="footer__item_list_li"><a href="#">Privacy policy</a></li>
+                            <li class="footer__item_list_li"><a href="#">Impressum</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__item_icons">
+                            <svg class="footer__item_icons_icon"><use xlink:href="#youtube"></use></svg>
+                            <svg class="footer__item_icons_icon"><use xlink:href="#instagram"></use></svg>
+                            <svg class="footer__item_icons_icon"><use xlink:href="#twitter"></use></svg>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

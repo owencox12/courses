@@ -1,0 +1,76 @@
+.courses {
+    min-height: 1462px;
+    padding: 175px 0 0px 0;
+    background: #100E14;
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.42px;
+        color: #8BFFB0;
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 58px;
+        line-height: 83px;
+        text-align: center;
+        letter-spacing: 1.92px;
+        color: #FFFFFF;
+        width: 787px;
+        margin: 0 auto;
+        margin-top: 21px;
+    }
+    &__descr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.42px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 904px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    &__image {
+        text-align: center;
+        margin-top: 70px;
+    }
+    &__block {
+        min-height: 433px;
+        background: #1D1B24;
+        border-radius: 30px;
+        padding: 66px 0 30px 0;
+        &_title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 63px;
+            line-height: 91px;
+            text-align: center;
+            letter-spacing: 2.1px;
+            color: #FFFFFF;
+        }
+        &_descr {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 27px;
+            line-height: 36px;
+            text-align: center;
+            letter-spacing: 0.42px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 32px;
+        }
+        &_button {
+            text-align: center;
+            margin-top: 71px;
+        }
+    }
+}
